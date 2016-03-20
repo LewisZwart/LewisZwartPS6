@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LewisZwartPS6</string>
+    <string name="key">6d8598a4e79a304b2ed266a1129be98f</string>
+    <string name="instruction">Get the current weather:</string>
+    <string name="go">GO</string>
+    <string name="url1">http://api.openweathermap.org/data/2.5/weather?q=</string>
+    <string name="url2"><![CDATA[&units=metric&APPID=]]></string>
+    <string name="url_image1">http://openweathermap.org/img/w/</string>
+    <string name="url_image2">.png</string>
+    <string name="space">%20</string>
+    <string name="noDataError">No data was found</string>
+</resources>
