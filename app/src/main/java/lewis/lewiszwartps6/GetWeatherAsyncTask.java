@@ -42,7 +42,7 @@ public class GetWeatherAsyncTask extends AsyncTask<String, Integer, JSONObject> 
         }
         else {
             try {
-                // extract interpreted location and temperature
+                // extract location and temperature from JSON
                 String city = result.getString("name");
                 String country = result.getJSONObject("sys").getString("country");
                 int temperature = result.getJSONObject("main").getInt("temp");

@@ -2,11 +2,10 @@ package lewis.lewiszwartps6;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
 import java.io.Serializable;
 
-/**
- * Created by Lewis on 17-3-2016.
+/*
+ * Saves one instance of the weather conditions at a certain time and place.
  */
 public class WeatherConditions implements Serializable{
 
@@ -60,7 +59,7 @@ public class WeatherConditions implements Serializable{
     }
 
     /*
-     * Returns the code of the icon representing the local weather.
+     * Returns a byte array describing the icon associated with the local weather.
      */
     public byte[] getIcon() {
         return icon;
